@@ -2,11 +2,10 @@ import time
 import FCMmanager as fcm
 from pycoingecko import CoinGeckoAPI
 import psycopg2
-import json
 
-import sqlite3
 
-connSql = sqlite3.connect('coinsData.db')
+
+
 
 
 conn = psycopg2.connect(database="defaultdb",
